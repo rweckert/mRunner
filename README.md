@@ -23,11 +23,11 @@ _chmod +x mRunner.sh_
 When running mRunner a icon will appear in your tray represented with a gear icon. Clicking on this icon opens a menu with options that include "Run". When selecting the "Run" option you can type in a command to execute. Easily one can type in a command and use the tab key to highlight the "Run" button and press enter to execute or by just clicking on the "Run" button. Once you have ran a command, the command is saved to the "List" for future use.
 
 ### Detailed Options and Usage:
-**Tray Menu:** When starting mRunner a gear icon will appear in your system tray. This tray menu has the following options:
-**- Run:** Opens the run command window. Use this command window to execute commands by typing in the command and clicking on the "Run" button. Each command that is executed is saved to the list for future reference. You can click on the "List" button to view the saved list of commands or click on the "Cancel" button to cancel the Run window.
-**- Apps:** Selecting this option will open a list of all installed applications in alphabetical order. Simply scroll the list and double click on a application to open.
-**- List History:** This is a list of all past commands that have been executed. You can sort the list by clicking on the column header "Command". Double clicking on a listed command will execute the command. The "Clear" button clears the command list. The "Close" button will close the listing window. The option to "Edit" allows you to edit the list file.
-**- Main Menu:** Opens the "Main Menu" with all options included for mRunner: "Run, Apps, List, Theme, Help, About, Close".
+**Tray Menu:** When starting mRunner a gear icon will appear in your system tray. This tray menu has the following options:<br/>
+**- Run:** Opens the run command window. Use this command window to execute commands by typing in the command and clicking on the "Run" button. Each command that is executed is saved to the list for future reference. You can click on the "List" button to view the saved list of commands or click on the "Cancel" button to cancel the Run window.<br/>
+**- Apps:** Selecting this option will open a list of all installed applications in alphabetical order. Simply scroll the list and double click on a application to open.<br/>
+**- List History:** This is a list of all past commands that have been executed. You can sort the list by clicking on the column header "Command". Double clicking on a listed command will execute the command. The "Clear" button clears the command list. The "Close" button will close the listing window. The option to "Edit" allows you to edit the list file.<br/>
+**- Main Menu:** Opens the "Main Menu" with all options included for mRunner: "Run, Apps, List, Theme, Help, About, Close".<br/>
 **- Quit Menu:** Closes all menus and windows related to the mRunner application script.
 
 **Run:**

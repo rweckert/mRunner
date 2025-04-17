@@ -30,20 +30,16 @@ When running mRunner a icon will appear in your tray represented with a gear ico
 **- Main Menu:** Opens the "Main Menu" with all options included for mRunner: "Run, Apps, List, Theme, Help, About, Close".<br/>
 **- Quit Menu:** Closes all menus and windows related to the mRunner application script.
 
-**Run:**
+**Run:** The run window will open just above the tray icon allowing you to quickly add a command to execute. Options are as follows:<br/>
+**- Run:** Selecting this button will execute the command you have provided.<br/>
+**- List:** This option will open a list of applications installed on your system. This application list is in alphabetical order. To load a listed application simply double click on the application name.<br/>
+**- Cancel:** This will close the Run window.<br/>
 
-**Apps:**
+**Apps:** This option displays a list of all installed applications in alphabetical order. Simply double click on a application to open.
 
-**List History:** 
+**List History:** This is a listing of all the run commands that have been executed. Options for this listing include "Clear" which will remove all items listed in the history window. The "Edit" option will allow you to edit the history file directly. The "Close" option will exit the history listing window.
 
-**Main Menu:**
-
-
-
-### Notes:
-- mRunner can be ran from any directory.
-- mRunner uses the "/tmp/" folder for temporary and .ini files.
-- A mistyped run command will not run a application, but will be found in the list.
+**Main Menu:** The "Main Menu" option when opened will appear just above the mRunner tray icon. This menu will list all the options listed above plus one for customizing the theme along with options for "Help" and "About". The "Close" button will close the menu.
 
 ### Theme Options:
 When viewing the "Theme" option, the following options are available:<br/>
@@ -52,10 +48,14 @@ When viewing the "Theme" option, the following options are available:<br/>
 **Mode:** Select basic system theme available in the system for "Light Theme" or "Dark Theme". This default uses the "Breeze" theme package located in the "/usr/share/themes/" folder.<br/>
 **Apply System Theme:** Applies the Mode selected for either "Light Theme" or "Dark Theme". Once selected the Options window will close and re-open showing the theme selected in use.<br/>
 **Browse Themes Folder:** Browse the default themes folder "/usr/share/themes/".<br/>
-**Help:** Opens qFind help documentation.<br/>
+**Help:** Opens mRunner help documentation.<br/>
 **About:** Opens the about window showing script credits.<br/>
 **Close:** Closes the "Options" window.
 
+### Notes:
+- mRunner can be ran from any directory.
+- mRunner uses the "/tmp/" folder for temporary and .ini files.
+- A mistyped run command will not run a application, but will be found in the history list.
 
 ### Common System Requirements:
 The following applications are in general use of most Linux systems and are used in having mRunner deliver output:
@@ -81,7 +81,7 @@ YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Lin
 Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
-### qFind Shortcut File: <br/>
+### mRunner Shortcut File: <br/>
 Save the following as a file named "mRunner.desktop" in creating a shortcut to this utility.<br/>
 [Desktop Entry]<br/>
 Name=mRunner<br/>

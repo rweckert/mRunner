@@ -96,7 +96,7 @@ Terminal=false<br/>
 **Project Page:** <br/>
 [https://github.com/rweckert/mRunner](https://github.com/rweckert/mRunner)<br/>
 **Source File:** <br/>
-[https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh]([url](https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh))<br/>
+[https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh](https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh)<br/>
 **Documentation File:** <br/>
 [https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md](https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md)<br/>
 **Project Screenshot:** <br/>

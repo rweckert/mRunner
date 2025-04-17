@@ -4,7 +4,7 @@ A simple run command menu tray utility.
 ### Script Purpose as a Tool:
 To provide a simple "Run" command utility that provides command history. Options include browsing applications and using a system or custom theme.
 
-
+![mRunner Screenshot](https://github.com/rweckert/mRunner/blob/1a17b9d1b70b7e8790f3d835042a57366f31e3a5/screenshot-mRunner.jpg)
 
 ### Setup:
 1) Save the mRunner.sh file to a directory.

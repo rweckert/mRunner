@@ -82,7 +82,7 @@ Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
 ### mRunner Shortcut File: <br/>
-Save the following as a file named "mRunner.desktop" in creating a shortcut to this utility.<br/>
+Save the following as a file named "mRunner.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored:<br/>
 [Desktop Entry]<br/>
 Name=mRunner<br/>
 GenericName=mRunner<br/>

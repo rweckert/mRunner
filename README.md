@@ -59,6 +59,7 @@ When viewing the "Theme" option, the following options are available:<br/>
 
 ### Common System Requirements:
 The following applications are in general use of most Linux systems and are used in having mRunner deliver output:
+- awk
 - read
 - rm
 - sed

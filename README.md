@@ -18,9 +18,10 @@ _chmod +x mRunner.sh_
 - Applications list showing all installed programs that can be executed by double click.
 - Main menu feature display all options.
 - Theme selection by either custom or provided by system.
+- Use the 'F1' key for documentation from any main window.
 
 ### Typical Usage:
-When running mRunner a icon will appear in your tray represented with a gear icon. Clicking on this icon opens a menu with options that include "Run". When selecting the "Run" option you can type in a command to execute. Easily one can type in a command and use the tab key to highlight the "Run" button and press enter to execute or by just clicking on the "Run" button. Once you have ran a command, the command is saved to the "List" for future use.
+When running mRunner a icon new will appear in your tray represented with a gear icon. Clicking on this icon opens a menu with options that include "Run". When selecting the "Run" option you can type in a command to execute. Easily one can type in a command and use the tab key to highlight the "Run" button and press enter to execute or by just clicking on the "Run" button. Once you have ran a command, the command is saved to the "List" for future use.
 
 ### Detailed Options and Usage:
 **Tray Menu:** When starting mRunner a gear icon will appear in your system tray. This tray menu has the following options:<br/>
@@ -28,7 +29,8 @@ When running mRunner a icon will appear in your tray represented with a gear ico
 **- Apps:** Selecting this option will open a list of all installed applications in alphabetical order. Simply scroll the list and double click on a application to open.<br/>
 **- List History:** This is a list of all past commands that have been executed. You can sort the list by clicking on the column header "Command". Double clicking on a listed command will execute the command. The "Clear" button clears the command list. The "Close" button will close the listing window. The option to "Edit" allows you to edit the list file.<br/>
 **- Main Menu:** Opens the "Main Menu" with all options included for mRunner: "Run, Apps, List, Theme, Help, About, Close".<br/>
-**- Quit Menu:** Closes all menus and windows related to the mRunner application script.
+**- Refresh:** Updates and refreshes the mRunner tray menu.<br/>
+**- Quit mRunner:** Closes the mRunner tray menu.
 
 **Run:** The run window will open just above the tray icon allowing you to quickly add a command to execute. Options are as follows:<br/>
 **- Run:** Selecting this button will execute the command you have provided.<br/>
@@ -69,6 +71,7 @@ The following applications are in general use of most Linux systems and are used
 - while
 - wmctrl
 - xdg-open
+- xdpyinfo
 
 ### Critical System Requirements:
 The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.

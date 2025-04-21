@@ -89,7 +89,7 @@ wmctrl -c 'mRunner-Menu'
 sed -i '/^$/d' "$td/mRunnerList.txt"
 ec='@sh -c "echo %s > $tf & $app xCommand"'
 if [ ! -f "$td/mRunnerList.txt" ]; then echo -n "" > "$td/mRunnerList.txt"; fi
-ydo=$(yad --list --css="$tp" --width=300 --height=500 --mouse --title="mRunner-Commands" --name="mList" --window-icon="applications-system" --sep-value="|" --item-separator="|" --dclick-action="$ec" --button="Clear":3 --button="Edit":2 --button="Close":1 --columns=1 --column="Command" < $td/mRunnerList.txt)
+ydo=$(yad --list --css="$tp" --width=300 --height=500 --mouse --title="mRunner-Commands" --name="mList" --window-icon="applications-system" --sep-value="|" --item-separator="|" --dclick-action="$ec" --f1-action="$app mHelp" --button="Clear":3 --button="Edit":2 --button="Close":1 --columns=1 --column="Command" < $td/mRunnerList.txt)
 ydo=$?
 if [ $ydo -eq 2 ]; then
 xdg-open "$td/mRunnerList.txt"

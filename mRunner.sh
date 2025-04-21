@@ -1,5 +1,5 @@
 #!/bin/bash
-# mRunner.sh Created: 02/17/2025 Updated: 04/16/2025
+# mRunner.sh Created: 02/17/2025 Updated: 04/20/2025
 # Robert W. Eckert - rweckert@gmail.com
 #        __________
 #   _____\______   \__ __  ____   ____   ___________
@@ -36,15 +36,24 @@ yad --form --css="$tp" --posx="$naw" --posy="$nah" --fixed --title="mRunner-Menu
 }
 $fcall mMenu
 
+# Menu Tray: ===========================
 function mTray {
 wmctrl -c 'mRunner-Menu'
 yad --notification --css="$tp" \
 --image="applications-system" \
 --text="mRunner Menu" \
---menu="Run!$app mRun!gtk-execute|Apps !$app mApps!gtk-yes|List History !$app mList!gtk-index|Main Menu !$app mMenu!gtk-home|Quit Menu!quit!gtk-quit" \
+--menu="Run!$app mRun!gtk-execute|Apps !$app mApps!gtk-yes|List History !$app mList!gtk-index|Main Menu !$app mMenu!gtk-home|Refresh !$app tRefresh!gtk-refresh|Quit mRunner !quit!gtk-quit" \
 --command="menu" 2>/dev/null
 }
 $fcall mTray
+
+# Tray Refresh: ========================
+function tRefresh {
+ypi=`/bin/ps -fu $USER| grep "mRunner Menu" | grep -v "grep" | awk '{print $2}'`
+kill -9 $ypi
+mTray
+}
+$fcall tRefresh
 
 # Apps Menu: ===========================
 function mApps {
@@ -168,7 +177,7 @@ $fcall tBrowse
 
 # Main Help: ===========================
 function mHelp {
-yad --html --browser --css="$tp" --width=900 --height=500 --center --title="mRunner-Documentation" --name="mHelp" --window-icon="applications-system" --uri="/home/rweckert/WinXBin/Source/mRunner/readme-mRunner.txt" --file-op
+yad --html --browser --css="$tp" --width=900 --height=500 --center --title="mRunner-Documentation" --name="mHelp" --window-icon="applications-system" --uri="https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md" --file-op
 }
 $fcall mHelp
 
@@ -181,7 +190,7 @@ yad --about --css="$tp" \
 --license="GPL3" \
 --comments="A simple run command menu tray utility.
 Requires YAD 14.0+ (GTK+ 3.24.41)" \
---copyright="Updated 04/16/2025 by Robert W Eckert" \
+--copyright="Updated 04/20/2025 by Robert W Eckert" \
 --pversion="Version: 1.1" \
 --pname="mRunner" \
 --button="Close!gtk-close":1

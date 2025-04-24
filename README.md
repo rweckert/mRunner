@@ -7,8 +7,9 @@ To provide a simple "Run" command utility that provides command history. Options
 ![mRunner Screenshot](https://github.com/rweckert/mRunner/blob/1a17b9d1b70b7e8790f3d835042a57366f31e3a5/screenshot-mRunner.jpg)
 
 ### Setup:
-1) Save the mRunner.sh file to a directory.
-2) Make the mRunner.sh script executable by running the following command in the same directory as the mRunner.sh file:<br/>
+1. Please review "[Common System Requirements](https://github.com/rweckert/mRunner/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements](https://github.com/rweckert/mRunner/blob/main/README.md#critical-system-requirements)" sections below for basic and critical requirements to run this script successfully.
+2. Save the mRunner.sh file to a directory.
+3. Make the mRunner.sh script executable by running the following command in the same directory as the mRunner.sh file:<br/>
 _chmod +x mRunner.sh_
 
 ### Features:

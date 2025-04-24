@@ -1,4 +1,4 @@
-# <img align="left" width="32" src="Icon-mRunner.png" /> mRunner
+# <img align="left" width="48" src="Icon-mRunner.png" /> mRunner
 A simple run command menu tray utility.
 
 ### Script Purpose as a Tool:
@@ -59,6 +59,17 @@ When viewing the "Theme" option, the following options are available:<br/>
 - mRunner uses the "/tmp/" folder for temporary and .ini files.
 - A mistyped run command will not run a application, but will be found in the history list.
 
+### mRunner Shortcut File: <br/>
+Save the following as a file named "mRunner.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored:<br/>
+[Desktop Entry]<br/>
+Name=mRunner<br/>
+GenericName=mRunner<br/>
+Comment=A simple run command menu tray utility.<br/>
+Exec=/PathToScript/mRunner.sh<br/>
+Type=Application<br/>
+Icon=emblem-system<br/>
+Terminal=false<br/>
+
 ### Common System Requirements:
 The following applications are in general use of most Linux systems and are used in having mRunner deliver output:
 - awk
@@ -74,34 +85,25 @@ The following applications are in general use of most Linux systems and are used
 - xdpyinfo
 
 ### Critical System Requirements:
-The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.
+Packages listed below provide the core ingredients for graphic display and desired output that enables mRunner deliver output and are critical for successful execution of the the script:
+| Package       | Version              | Notes         |
+|     :---:     |         :---:        | :---          |
+| yad           | 14.0+ (GTK+ 3.24.41) | A tool for developing graphical user interfaces in Linux and is used by this script to generate menus and dialog windows, is written by Victor Ananjevsky. **Download:** [https://github.com/v1cont/yad](https://github.com/v1cont/yad) **Setup:** Step by step instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch) |
 
-- yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](https://github.com/v1cont/yad)
+### Closing:
+Script interface written by: Robert W. Eckert - rweckert@gmail.com Please feel free to email to submit bugs, changes or requests. This script comes with absolutely no warranty. See the link for the GNU General Public License, version 3 or later listed below for further details.
 
-The mRunner script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch)
-
-YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky.
-
-Script interface written by: Robert W. Eckert - rweckert@gmail.com
-Please feel free to email to submit bugs, changes or requests.
-
-### mRunner Shortcut File: <br/>
-Save the following as a file named "mRunner.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored:<br/>
-[Desktop Entry]<br/>
-Name=mRunner<br/>
-GenericName=mRunner<br/>
-Comment=A simple run command menu tray utility.<br/>
-Exec=/PathToScript/mRunner.sh<br/>
-Type=Application<br/>
-Icon=emblem-system<br/>
-Terminal=false<br/>
-
+---
 ### Project Contents:
 **Project Page:** <br/>
 [https://github.com/rweckert/mRunner](https://github.com/rweckert/mRunner)<br/>
 **Source File:** <br/>
-[https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh](https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh)<br/>
+[https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh](https://github.com/rweckert/mRunner/blob/a7ecb95e14fe2589625c2b5e7d3eeeb658afde33/mRunner.sh) <br/>
 **Documentation File:** <br/>
-[https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md](https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md)<br/>
+[https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md](https://github.com/rweckert/mRunner/blob/0c1b810312fdddbf5ea563cb0915c3cf8f38d4df/README.md) <br/>
 **Project Screenshot:** <br/>
-[https://github.com/rweckert/mRunner/blob/12d5b6705f3442f89e83999a8b0d4948b54f932e/screenshot-mRunner.jpg](https://github.com/rweckert/mRunner/blob/12d5b6705f3442f89e83999a8b0d4948b54f932e/screenshot-mRunner.jpg)<br/>
+[https://github.com/rweckert/mRunner/blob/12d5b6705f3442f89e83999a8b0d4948b54f932e/screenshot-mRunner.jpg](https://github.com/rweckert/mRunner/blob/12d5b6705f3442f89e83999a8b0d4948b54f932e/screenshot-mRunner.jpg) <br/>
+**Project License:** <br/>
+[https://github.com/rweckert/mRunner/blob/eb16f666af59d923c83d5020fcdee12ecb06bf8a/LICENSE](https://github.com/rweckert/mRunner/blob/eb16f666af59d923c83d5020fcdee12ecb06bf8a/LICENSE) <br/>
+**GitHub Profile Page:** <br/>
+[https://github.com/rweckert](https://github.com/rweckert)

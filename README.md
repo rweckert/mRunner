@@ -71,18 +71,7 @@ Icon=emblem-system<br/>
 Terminal=false<br/>
 
 ### Common System Requirements:
-The following applications are in general use of most Linux systems and are used in having mRunner deliver output:
-- awk
-- read
-- rm
-- sed
-- while
-- wmctrl
-- sed
-- while
-- wmctrl
-- xdg-open
-- xdpyinfo
+Common shell commands found in most Linux installations are used to provide system functionalilty for this and other scripts shared from this profile. For thoroughness, these Common shell commands are listed in alphabetical order with version and man page link for review: [https://github.com/rweckert/mRunner/blob/4914061c908fba44c1ec4ae86e08f685a2109732/README-Basic-Requirements.md](https://github.com/rweckert/mRunner/blob/4914061c908fba44c1ec4ae86e08f685a2109732/README-Basic-Requirements.md)
 
 ### Critical System Requirements:
 Packages listed below provide the core ingredients for graphic display and desired output that enables mRunner deliver output and are critical for successful execution of the the script:

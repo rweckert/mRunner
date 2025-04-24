@@ -1,4 +1,4 @@
-# mRunner
+# <img align="left" width="48" src="Icon-mRunner.png" /> mRunner
 A simple run command menu tray utility.
 
 ### Script Purpose as a Tool:
